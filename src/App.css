@@ -1,3 +1,7 @@
+html {
+  background: rebeccapurple;
+}
+
 .App {
   text-align: center;
 }
@@ -19,4 +23,31 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 2% auto;
+  color: moccasin;
+  font-weight: bold;
+}
+
+.greenBox {
+  background: green;
+}
+
+.redBox {
+  background: red;
+}
+
+button {
+  color: rebeccapurple;
+  border:none;
+  padding: 5px 10px;
+  background: white;
+  border-radius: 10px;
+  margin: 0px 10px;
+  font-size: 2rem;
 }
